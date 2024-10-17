@@ -1,0 +1,21 @@
+{
+    "name": "proxy-server",
+    "version": "1.0.0",
+    "description": "A simple HTTP proxy server",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "http-proxy": "^1.18.1",
+      "dotenv": "^10.0.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22"
+    }
+  }
+  
